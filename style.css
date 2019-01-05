@@ -1,0 +1,48 @@
+html {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 26px;
+  margin: 0;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+#sec1 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 350px;
+}
+
+#sec2 {
+  position: absolute;
+  left: 350px;
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  #sec1 {
+    position: relative;
+    margin-top: 18px;
+    left: 0px;
+  }
+  #sec2 {
+    position: relative;
+    margin-top: 0px;
+    left: 0px;
+  }
+}
